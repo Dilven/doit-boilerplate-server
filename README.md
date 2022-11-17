@@ -38,8 +38,8 @@ https://nextjs.org/docs/basic-features/pages#server-side-rendering
 
 ### Packages
 
-HTTP requests (Client) - `ky`
-HTTP requests (Server)- `ky-universal`
-Validation - `zod`
-Forms - `react-hook-form`
-Styles - `styled-components Static analysis code - `eslint`, `prettier`Asynchronous state management -`@tanstack/react-query`
+- HTTP requests (Client) - `ky`
+- HTTP requests (Server)- `ky-universal`
+- Validation - `zod`
+- Forms - `react-hook-form`
+- Styles - `styled-components Static analysis code - `eslint`, `prettier`Asynchronous state management -`@tanstack/react-query`
