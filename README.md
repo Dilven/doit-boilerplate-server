@@ -42,6 +42,4 @@ HTTP requests (Client) - `ky`
 HTTP requests (Server)- `ky-universal`
 Validation - `zod`
 Forms - `react-hook-form`
-Styles - `styled-components
-Static analysis code - `eslint`, `prettier`
-Asynchronous state management - `@tanstack/react-query`
+Styles - `styled-components Static analysis code - `eslint`, `prettier`Asynchronous state management -`@tanstack/react-query`

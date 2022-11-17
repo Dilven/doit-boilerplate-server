@@ -1,5 +1,5 @@
 import { z } from "zod";
 
 export const entitySchema = z.object({
-    id: z.number()
-  })
+  id: z.number(),
+});

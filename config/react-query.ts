@@ -1,7 +1,4 @@
-import {
-  DefaultOptions,
-  QueryClientConfig,
-} from "@tanstack/react-query";
+import { DefaultOptions, QueryClientConfig } from "@tanstack/react-query";
 
 const THIRTY_MINUTES = 1000 * 60 * 30;
 
