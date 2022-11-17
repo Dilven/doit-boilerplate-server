@@ -30,7 +30,7 @@ to check:
 
 ```bash
 npm run static:check
-````
+```
 
 to fix:
 
@@ -65,3 +65,4 @@ https://nextjs.org/docs/basic-features/pages#server-side-rendering
 - Theme
 - Express api endpoints
 - Module path aliases
+````
