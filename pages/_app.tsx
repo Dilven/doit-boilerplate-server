@@ -3,7 +3,7 @@ import { ReactQueryDevtools } from "@tanstack/react-query-devtools";
 import type { AppProps } from "next/app";
 import Head from "next/head";
 
-import { Navigation } from "@/components/Navigation";
+import { Navigation } from "@/components/Navigation/Navigation";
 import { config } from "@/config/react-query";
 
 const queryClient = new QueryClient(config);

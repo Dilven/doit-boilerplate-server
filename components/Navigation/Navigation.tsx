@@ -1,12 +1,16 @@
 import Link from "next/link";
 
+import { List } from "./styles";
+
 export const Navigation = () => {
   return (
-    <ul>
+    <List>
       <li>
         <Link href="/">Home</Link>
+      </li>
+      <li>
         <Link href="/entities">Entites</Link>
       </li>
-    </ul>
+    </List>
   );
 };
