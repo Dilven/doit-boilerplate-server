@@ -16,13 +16,9 @@ npm run dev
 
 or with docker
 
-````bash
-
 ```bash
 npm run dev:docker
-````
-
-````
+```
 
 ## Static analysis code
 
@@ -65,4 +61,7 @@ https://nextjs.org/docs/basic-features/pages#server-side-rendering
 - Theme
 - Express api endpoints
 - Module path aliases
-````
+
+```
+
+```
