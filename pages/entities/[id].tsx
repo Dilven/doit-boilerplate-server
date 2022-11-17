@@ -2,10 +2,12 @@ import { useRouter } from "next/router";
 
 export async function getServerSideProps() {
   // Pass data to the page via props
-  return { props: { { test: "message"} } }
+  console.log("🚀 SSR EXAMPLE")
+  return { props: { data: { test: "message" } } }
 }
 
-const Entity = () => {
+const Entity = ({ data}) => {
+  console.log("🚀 data from SSR", data)
   const router = useRouter();
   const { id } = router.query;
 

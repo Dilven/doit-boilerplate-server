@@ -9,7 +9,6 @@ const App = ({ Component, pageProps }: AppProps) => {
       <Head>
         <title>Data marketplace</title>
         <meta name="description" content="App data marketplace" />
-        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navigation />
       <Component {...pageProps} />
