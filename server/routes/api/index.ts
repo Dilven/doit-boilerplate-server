@@ -2,7 +2,8 @@ import PromiseRouter from "express-promise-router";
 import expressCore from "express-serve-static-core";
 import http from "http";
 
-import { HTTPError } from "../helpers/errors";
+import { HTTPError } from "../../helpers/errors";
+import { entitiesRouter } from "./entites";
 import { internalRouter } from "./internal";
 
 export const apiRouter = PromiseRouter();
@@ -14,6 +15,7 @@ apiRouter.use((_req, res, next) => {
 });
 
 apiRouter.use("/internal", internalRouter);
+apiRouter.use("/entities", entitiesRouter);
 
 apiRouter.use((_req, _res, next) => {
   next(new HTTPError(404));

@@ -3,7 +3,7 @@ import express, { Request, Response } from "express";
 import { cleanUp } from "./clean-up";
 import { HTTPError } from "./helpers/errors";
 import { exitProcessWithError, setupProcessHooks } from "./process";
-import { apiRouter } from "./routes";
+import { apiRouter } from "./routes/api";
 import { nextApp, nextRouter } from "./routes/next";
 
 const port = 3000;
