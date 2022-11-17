@@ -42,4 +42,15 @@ https://nextjs.org/docs/basic-features/pages#server-side-rendering
 - HTTP requests (Server)- `ky-universal`
 - Validation - `zod`
 - Forms - `react-hook-form`
-- Styles - `styled-components Static analysis code - `eslint`, `prettier`Asynchronous state management -`@tanstack/react-query`
+- Styles - `styled-components
+- Static analysis code - `eslint`, `prettier`
+- Asynchronous state management -`@tanstack/react-query`
+
+### Features
+
+- SSR
+- Fast Refresh
+- ESLint
+- TypeScript
+- Theme
+- Express api endpoints
