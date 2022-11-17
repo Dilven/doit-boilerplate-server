@@ -14,13 +14,23 @@ npm i
 npm run dev
 ```
 
+or with docker
+
+````bash
+
+```bash
+npm run dev:docker
+````
+
+````
+
 ## Static analysis code
 
 to check:
 
 ```bash
 npm run static:check
-```
+````
 
 to fix:
 
@@ -54,3 +64,4 @@ https://nextjs.org/docs/basic-features/pages#server-side-rendering
 - TypeScript
 - Theme
 - Express api endpoints
+- Module path aliases

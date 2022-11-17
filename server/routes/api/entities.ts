@@ -7,6 +7,6 @@ export const entitiesRouter = PromiseRouter();
 // just example of endpoint
 entitiesRouter.get("/", (_req, res) => {
   // const data = [{ id: 1 }, { id: 2 }] satisfies Entity[]
-  const data: Entity[] = [{ id: 1 }, { id: 3 }];
+  const data: Entity[] = [{ id: 1 }, { id: 4 }];
   res.json(data);
 });

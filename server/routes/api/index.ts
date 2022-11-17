@@ -3,7 +3,7 @@ import expressCore from "express-serve-static-core";
 import http from "http";
 
 import { HTTPError } from "../../helpers/errors";
-import { entitiesRouter } from "./entites";
+import { entitiesRouter } from "./entities";
 import { internalRouter } from "./internal";
 
 export const apiRouter = PromiseRouter();
