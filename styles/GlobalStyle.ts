@@ -16,6 +16,20 @@ const GlobalStyle = createGlobalStyle`
   * {
     box-sizing: border-box;
   }
+
+  html {
+    --color-text: ${(props) => props.theme.colors.text};
+    --color-background:  ${(props) => props.theme.colors.background};
+    --color-primary:  ${(props) => props.theme.colors.primary};
+
+    color: var(--color-text);
+    background-color: var(--color-background);
+
+    --breakpoints-mobile: 540px;
+    --breakpoints-tablet: 768px;
+    --breakpoints-desktop: 1024px;
+
+  }
 `;
 
 export default GlobalStyle;
