@@ -2,10 +2,6 @@ import { useThemeContext } from "@/styles/theme";
 
 export const ThemeToggler = () => {
   const { colorMode, setColorMode } = useThemeContext();
-  console.log(
-    "🚀 ~ file: ThemeToggler.tsx ~ line 5 ~ ThemeToggler ~ colorMode",
-    colorMode
-  );
   return (
     <label>
       <input
