@@ -4,12 +4,14 @@ import { cleanUp } from "./clean-up";
 import { HTTPError } from "./helpers/errors";
 import { exitProcessWithError, setupProcessHooks } from "./process";
 import { apiRouter } from "./routes/api";
+import { internalRouter } from "./routes/internal";
 import { nextApp, nextRouter } from "./routes/next";
 
 const port = 3000;
 const expressApp = express();
 
 expressApp.use("/api", apiRouter);
+expressApp.use("/internal", internalRouter);
 expressApp.use("/", nextRouter);
 
 expressApp.use((_req, _res, next) => {

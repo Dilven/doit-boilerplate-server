@@ -4,8 +4,8 @@
   "scripts": {
     "dev": "nodemon",
     "dev:docker": "docker-compose up app",
-    "build": "next build && tsc --project tsconfig.server.json",
-    "start": "cross-env NODE_ENV=production node dist/server.js",
+    "build": "next build && rm -rf dist && tsc --project tsconfig.server.json",
+    "start": "cross-env NODE_ENV=production node dist/server/index.js",
     "depcruise": "depcruise --validate .dependency-cruiser.json pages",
     "lint:check": "next lint",
     "lint:fix": "next lint --fix",
