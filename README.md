@@ -60,7 +60,7 @@ https://nextjs.org/docs/basic-features/pages#server-side-rendering
 - TypeScript
 - Theme
 - Express api endpoints
-- Module path aliases
+- Module path aliases (use @ imports only for nextjs application)
 
 ```
 
